@@ -1,0 +1,44 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Logs
+logs/
+*.log
+
+# Model artifacts (regenerate via `python main.py`)
+models/*.pkl
+models/*.png
+models/model_comparison.csv
+
+# EDA outputs (regenerate via `python notebooks/eda.py`)
+notebooks/eda_outputs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
+
+# IDE
+.vscode/
+.idea/
+*.swp
